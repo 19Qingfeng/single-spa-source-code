@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "rollup": "^2.53.2",
+    "rollup-plugin-server": "^0.7.0"
+  },
+  "name": "single-spa-source-code",
+  "description": "mock single-spa.",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "scripts": {
+    "build": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19Qingfeng/single-spa-source-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19Qingfeng/single-spa-source-code/issues"
+  },
+  "homepage": "https://github.com/19Qingfeng/single-spa-source-code#readme"
+}
